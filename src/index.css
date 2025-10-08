@@ -1,0 +1,83 @@
+body {
+  background: #111;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  color: cyan;
+}
+
+.app-container {
+  text-align: center;
+}
+
+.card,
+.atm-card {
+  background: #1a1a1a;
+  border: 3px solid #333;
+  border-radius: 12px;
+  padding: 20px;
+  width: 350px;
+  box-shadow: 0px 0px 20px cyan;
+}
+
+h2 {
+  color: cyan;
+  margin-bottom: 15px;
+}
+
+input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid cyan;
+  border-radius: 8px;
+  background: #111;
+  color: white;
+  text-align: center;
+}
+
+button {
+  background: cyan;
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 5px;
+  width: 140px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #00ffff;
+  box-shadow: 0px 0px 10px cyan;
+}
+
+.link {
+  color: cyan;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.balance-box {
+  border: 2px solid cyan;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
+
+.btn-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.txn-box {
+  margin-top: 15px;
+  padding: 10px;
+  border: 2px solid cyan;
+  border-radius: 8px;
+  text-align: left;
+}
